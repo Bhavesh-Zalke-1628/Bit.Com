@@ -1,0 +1,215 @@
+@font-face {
+    font-family: main;
+    src: url("./BitPlex-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: main;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+/* nav bar css  */
+
+#main #nav {
+    height: 10hv;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+}
+
+#left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2%;
+}
+
+#nav #logo {
+    height: 50%;
+    width: 6%;
+}
+
+#nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 17px;
+    list-style: none;
+}
+
+#nav ul li {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: main;
+    letter-spacing: 0.10px;
+    color: f7f7f7;
+    font-weight: 600;
+}
+
+#nav ul li:hover {
+    color: #00ec96;
+    cursor: pointer;
+}
+
+#right {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* border: 2px solid #fff; */
+}
+
+#right button {
+    height: 30px;
+    width: 70px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ec96;
+    font-size: 14px;
+    font-family: main;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#right>div #login {
+    background-color: #000;
+    color: #fff;
+}
+
+#right>div #login:hover {
+    color: #00ec96;
+}
+
+/* page1 css  */
+
+#page1 {
+    min-height: 80%;
+    width: 100%;
+    margin-top: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#page1Left {
+    width: 50%;
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: absolute;
+    top: 40%;
+}
+
+#page1Left h1 {
+    margin-left: 20px;
+    font-size: 9vh;
+    letter-spacing: -0.9px;
+    line-height: 80px;
+
+}
+
+#like {
+    color: #00ec96;
+}
+
+#page1Left #input {
+    height: 45px;
+    display: flex;
+    align-items: start;
+}
+
+#page1Left input {
+    height: 50px;
+    width: 50%;
+    align-content: start;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 0px 20px;
+    font-weight: 100;
+    color: #8c8c8d;
+    background-color: #111418;
+    border: none;
+    border-radius: 10px;
+    font-family: main;
+}
+
+#page1Left #join {
+    height: 50px;
+    width: 20%;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: #00ec96;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#page1Last{
+    height: 25vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    position: absolute;
+    top: 83%;
+}
+
+#page1Last img{
+    height: 90%;
+    width: 24%;
+    border-radius: 10px;
+}
+
+#page1Last img:hover{
+    border: 1px solid rgb(204, 89, 108);
+}
+#annoucne{
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+
+#annoucne img{
+    height: 20px;
+}
+
+#annoucne #bit:hover{
+    color: #00ec96;
+    cursor: pointer;
+}
