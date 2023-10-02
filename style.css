@@ -173,7 +173,7 @@ body {
     cursor: pointer;
 }
 
-#page1Last{
+#page1Last {
     height: 25vh;
     width: 100%;
     /* border: 2px solid red; */
@@ -181,35 +181,119 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 100px;
-    position: absolute;
-    top: 83%;
 }
 
-#page1Last img{
+#page1Last img {
     height: 90%;
     width: 24%;
     border-radius: 10px;
 }
 
-#page1Last img:hover{
+#page1Last img:hover {
     border: 1px solid rgb(204, 89, 108);
 }
-#annoucne{
+
+#annoucne {
     height: 10vh;
     width: 50%;
     display: flex;
     align-items: center;
     gap: 10px;
     color: #fff;
-    margin-top: 100px;
     padding: 0px 100px;
 }
 
-#annoucne img{
+#annoucne img {
     height: 20px;
 }
 
-#annoucne #bit:hover{
+#annoucne #bit:hover {
     color: #00ec96;
     cursor: pointer;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: #181c21;
+}
+
+#indexes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 25px;
+    color: #fff;
+}
+
+.index p {
+    color: #8c8c8d;
+    font-weight: 600;
+}
+
+.index h1 {
+    font-size: 40px;
+}
+
+#featurHead {
+    color: #fff;
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: .9px;
+    word-spacing: .9px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: main;
+}
+
+#cardWrapper {
+    height: 70%;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    flex-wrap: nowrap ; 
+    flex-direction: row;
+}
+
+#cardWrapper #card {
+    height: 400px;
+    width: 400px;
+    border: 1px solid #00ec96;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#card #upper {
+    height: 15%;
+    width: 100%;
+    background-color: #00ec96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#upper h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+}
+
+#card #lower {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#lower #img {
+    height: 50%;
+    width: 25%;
+    border: 1px solid red;
+}
+
+#lower #img img{
+    height: 50%;
 }
