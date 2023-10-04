@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: main;
+    color: #fff;
 }
 
 html,
@@ -173,6 +174,12 @@ body {
     cursor: pointer;
 }
 
+#page1Right img {
+    height: 100%;
+    width: 60%;
+    margin-left: 50%;
+}
+
 #page1Last {
     height: 25vh;
     width: 100%;
@@ -261,7 +268,6 @@ body {
     height: 25vw;
     width: 45vw;
     border: 1px solid #00ec96;
-    ;
     border-radius: 10px;
     overflow: hidden;
     color: white;
@@ -325,39 +331,69 @@ body {
     /* justify-content: space-between; */
     flex-direction: column;
     gap: 30px;
+    padding: 20px;
 }
 
 #page3 h1 {
     text-align: center;
     color: #fff;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: main;
+    margin-top: 50px;
+    font-weight: 800;
 }
 
-#page3 #p3Cards{
-    height: 50%;
+#page3 #cardWrapper {
+    height: 70%;
     width: 90%;
-    /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 15px;
     padding: 10px;
+    margin-top: 50px;
 }
-#p3Cards #p3Card{
+
+#cardWrapper #cardDown {
+    height: 100%;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#cardDown #cardBody {
     height: 80%;
-    width: 15%;
+    width: 100%;
     background-color: #111418;
-    border-radius: 15px;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    border-radius: 10px;
 }
-#p3Card img{
-    height: 50%;
+
+#cardDown #cardBody:hover {
+    background-color: #33b73a;
+    cursor: pointer;
 }
-#p3Card:hover{
-    background-color: #00ec96;
-} 
+
+#cardBody img {
+    height: 40%;
+    width: 60%;
+    background-position: center;
+}
+
+#cardText p {
+    font: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: center;
+    color: #989898;
+}
+
+#cardDown p:hover {
+    color: #00ec96;
+    cursor: pointer;
+}
