@@ -392,8 +392,6 @@ body {
     text-align: center;
     color: #989898;
 }
-
-#cardDown p:hover {
-    color: #00ec96;
-    cursor: pointer;
+#main{
+    background-color: yellow;
 }
