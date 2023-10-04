@@ -248,22 +248,23 @@ body {
 #cardWrapper {
     height: 70%;
     width: 100%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
-    padding: 10px 20px;
-    flex-wrap: nowrap ; 
+    padding: 20px;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 
 #cardWrapper #card {
-    height: 400px;
-    width: 400px;
+    height: 25vw;
+    width: 45vw;
     border: 1px solid #00ec96;
+    ;
     border-radius: 10px;
     overflow: hidden;
+    color: white;
 }
 
 #card #upper {
@@ -282,18 +283,81 @@ body {
 }
 
 #card #lower {
-    height: 85vh;
+    height: 70vh;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: -50px;
 }
 
 #lower #img {
-    height: 50%;
-    width: 25%;
-    border: 1px solid red;
+    height: 70%;
+    width: 11vw;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
 }
 
-#lower #img img{
+#lower #img img {
     height: 50%;
 }
+
+#lower #img p {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: main;
+    text-transform: capitalize;
+}
+
+/* page3 css start from here  */
+
+#page3 {
+    height: 60vh;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    gap: 30px;
+}
+
+#page3 h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    font-family: main;
+}
+
+#page3 #p3Cards{
+    height: 50%;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+}
+#p3Cards #p3Card{
+    height: 80%;
+    width: 15%;
+    background-color: #111418;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#p3Card img{
+    height: 50%;
+}
+#p3Card:hover{
+    background-color: #00ec96;
+} 
