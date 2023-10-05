@@ -17,5 +17,4 @@ gsap.from("##page3", {
     ease: "back.in",
     opacity: 0,
     duration: 2,
-    stagger: 0.1
 })
